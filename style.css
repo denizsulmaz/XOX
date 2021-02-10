@@ -1,0 +1,133 @@
+body {
+	/* background-color:#1b1b1b; */
+    background: rgb(39,0,116);
+    background: linear-gradient(90deg, rgba(39,0,116,1) 0%, rgba(57,0,92,1) 5%, rgba(32,22,39,1) 25%, rgba(27,27,27,1) 50%, rgba(28,26,30,1) 75%, rgba(57,0,92,1) 95%, rgba(39,0,116,1) 100%);
+}
+#ttt{
+    position: absolute;
+    top: 0;
+    left: 550px;
+}
+#imza{
+    position: absolute;
+    width: 4%;
+    bottom: 90px;
+    left: 735px;
+}
+.container{
+    margin-top: 12%;
+    margin-bottom: auto;
+}
+h3 {
+	color:white;
+	position:absolute;
+	top:20%;
+	left:40%;
+	font-size: 50px
+}
+
+h1 {
+	color:white;
+	margin-bottom:30px;
+}
+
+.gameboard {
+	background-color:rgba(0, 0, 0, 0);
+	position:relative;
+	margin:auto;
+	height:27em;
+	width:27em;
+}
+
+.square {
+	height:8em;
+	width:8em;
+	margin:auto auto;
+}
+
+#cell1s {
+    margin: 5px;
+    background-color: black;
+	border: 1px solid white;
+    border-radius: 20px;
+}
+
+#cell2s {
+    margin: 5px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+	
+}
+
+#cell3s {
+    margin: 5px;
+    background-color: black;
+	border: 1px solid white;
+    border-radius: 20px;
+}
+
+#cell4s {
+    margin: 5px;
+    background-color: black;
+	border: 1px solid white;
+    border-radius: 20px;
+}
+
+#cell5s {
+    margin: 5px;
+    background-color: black;
+	border: 1px solid white;
+    border-radius: 20px;
+}
+
+#cell6s { margin: 5px;
+    background-color: black;
+	border: 1px solid white;
+    border-radius: 20px;
+}
+
+#cell7s { margin: 5px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#cell8s { margin: 5px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#cell9s { margin: 5px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.container-fluid {
+	z-index: 2;
+	position:fixed;
+	background-color:rgba(20,20,20,0.5);
+	height:150px;
+	width:100%;
+	bottom:50%;
+	text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    #imza{
+        position: absolute;
+        width: 12%;
+        bottom: 90px;
+        left: 46%;
+    }
+    .container{
+        margin-top: 24%;
+        margin-bottom: auto;
+    }
+    #ttt{
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+}
